@@ -203,8 +203,8 @@ if __name__ == "__main__":
     # Gerar gráficos agrupados por operação
     gerar_graficos_por_operacao()
     
-    print("\n✅ Testes concluídos com sucesso!")
-    print("📊 Gráficos gerados:")
+    print("\n Testes concluídos com sucesso!")
+    print(" Gráficos gerados:")
     print("   - /graficos/comparacao: Comparações Array vs LinkedList")
     print("   - /graficos/array: Gráficos individuais das estruturas Array")
     print("   - /graficos/linkedlist: Gráficos individuais das estruturas LinkedList")
