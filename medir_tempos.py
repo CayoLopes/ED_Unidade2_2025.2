@@ -75,7 +75,7 @@ def gerar_graficos_comparacao(nome_csv, titulo):
         nome_img = f"comparacao_{titulo.lower()}_{operacao}.png".replace(" ", "_")
         plt.savefig(os.path.join("graficos/comparacao", nome_img))
         plt.close()
-    print(f"📈 Gráficos de comparação de {titulo} gerados em /graficos/comparacao")
+    print(f" Gráficos de comparação de {titulo} gerados em /graficos/comparacao")
 
 
 def gerar_graficos_individual(nome_csv, titulo):
@@ -108,7 +108,7 @@ def gerar_graficos_individual(nome_csv, titulo):
             plt.savefig(os.path.join("graficos/array", nome_img))
             plt.close()
         
-        print(f"📈 Gráficos individuais de ARRAY para {titulo} gerados em /graficos/array")
+        print(f" Gráficos individuais de ARRAY para {titulo} gerados em /graficos/array")
     
     # Gráficos para LinkedList
     if not dados_linked.empty:
@@ -129,7 +129,7 @@ def gerar_graficos_individual(nome_csv, titulo):
             plt.savefig(os.path.join("graficos/linkedlist", nome_img))
             plt.close()
         
-        print(f"📈 Gráficos individuais de LINKEDLIST para {titulo} gerados em /graficos/linkedlist")
+        print(f" Gráficos individuais de LINKEDLIST para {titulo} gerados em /graficos/linkedlist")
 
 
 def gerar_graficos_por_operacao():
@@ -167,7 +167,7 @@ def gerar_graficos_por_operacao():
         plt.savefig(os.path.join("graficos/por_operacao", nome_img))
         plt.close()
     
-    print("📈 Gráficos por operação gerados em /graficos/por_operacao")
+    print(" Gráficos por operação gerados em /graficos/por_operacao")
 
 
 if __name__ == "__main__":
